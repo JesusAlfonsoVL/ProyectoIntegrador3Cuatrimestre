@@ -589,11 +589,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jesus\\OneDrive\\Escritorio\\ExampleCRUD\\ExampleCRUD\\ExampleCRUD.csproj",
-      "projectName": "ExampleCRUD",
-      "projectPath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\ExampleCRUD\\ExampleCRUD\\ExampleCRUD.csproj",
+      "projectUniqueName": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\ProyectoIntegrador3Cuatrimestre\\SistemaHorarios\\SistemaHorarios.csproj",
+      "projectName": "SistemaHorarios",
+      "projectPath": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\ProyectoIntegrador3Cuatrimestre\\SistemaHorarios\\SistemaHorarios.csproj",
       "packagesPath": "C:\\Users\\jesus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\ExampleCRUD\\ExampleCRUD\\obj\\",
+      "outputPath": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\ProyectoIntegrador3Cuatrimestre\\SistemaHorarios\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -609,11 +609,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\jesus\\OneDrive\\Escritorio\\ExampleCRUD\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\ExampleCRUD\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\ProyectoIntegrador3Cuatrimestre\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\ProyectoIntegrador3Cuatrimestre\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\jesus\\OneDrive\\Escritorio\\ExampleCRUD\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\ExampleCRUD\\Domain\\Domain.csproj"
+            "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\ProyectoIntegrador3Cuatrimestre\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\ProyectoIntegrador3Cuatrimestre\\Domain\\Domain.csproj"
             }
           }
         }

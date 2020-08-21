@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jesus\\OneDrive\\Escritorio\\ExampleCRUD\\Domain\\Domain.csproj": {}
+    "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\ProyectoIntegrador3Cuatrimestre\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jesus\\OneDrive\\Escritorio\\ExampleCRUD\\Domain\\Domain.csproj": {
+    "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\ProyectoIntegrador3Cuatrimestre\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jesus\\OneDrive\\Escritorio\\ExampleCRUD\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\ProyectoIntegrador3Cuatrimestre\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\ExampleCRUD\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\ProyectoIntegrador3Cuatrimestre\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\jesus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\ExampleCRUD\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\ProyectoIntegrador3Cuatrimestre\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jesus\\AppData\\Roaming\\NuGet\\NuGet.Config",

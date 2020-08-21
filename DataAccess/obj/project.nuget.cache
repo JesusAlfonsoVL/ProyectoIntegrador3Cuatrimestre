@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QTPA85aLAFQO3ThI4Z1pBsAjWVazo2xreUbxjri5Asq+dg+ItM6YOqZwE0gNbYBJADgKT/aAf3deIYgKC4Xpow==",
+  "dgSpecHash": "jM4jMm2Waxca1D86Gn5eAbBT2tVQN21P9JXpfGCMGFaQ0r/we11o26uU2AgAhm0+clmyqQQPFIZCOjJDCCePDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\ExampleCRUD\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\ProyectoIntegrador3Cuatrimestre\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jesus\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\jesus\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

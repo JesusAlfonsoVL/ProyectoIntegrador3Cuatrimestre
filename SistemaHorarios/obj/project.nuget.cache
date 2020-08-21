@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iO6cViAJOThgijxLYcXRogVNCfa9a+6Wx9LIlXNkhKFA2hRCXYG+cbNBaA2+rT1sQvip1y2H5qkLlSGWFXchdQ==",
+  "dgSpecHash": "XwX7FeEoBacEqH2OYVO0GT8pz1gRo4IMcSdZZlcPjcTXRlf0/ZIEUJhrQXv264W8RQiea+nx/kRETBKWKBqZ9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jesus\\OneDrive\\Escritorio\\ExampleCRUD\\ExampleCRUD\\ExampleCRUD.csproj",
+  "projectFilePath": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\ProyectoIntegrador3Cuatrimestre\\SistemaHorarios\\SistemaHorarios.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jesus\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\jesus\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
