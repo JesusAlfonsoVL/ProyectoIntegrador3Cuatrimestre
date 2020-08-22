@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "K4PS0kZjDJGih8k5lGVYQ2JS3yrC9jnXWTdHFkRPvzCtNCtfS/H/ILg6zTCZg2yrOeK/NAO7nNun7lPy6YdkFQ==",
+  "dgSpecHash": "srSRBLhIYOZzp676cziiczBjqDWdeF6SGpnYKkSwSTRzV+7aiRKOSkOYWoYMXLtCLcM7ei+SR5BUp7CN277cYA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jesus\\OneDrive\\Documentos\\GitHub\\ProyectoIntegrador3Cuatrimestre\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\NoelRios\\Documents\\GitHub\\ProyectoIntegrador3Cuatrimestre\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jesus\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\jesus\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\NoelRios\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\NoelRios\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -22,3 +22,15 @@ C:\Users\jesus\OneDrive\Documentos\GitHub\ProyectoIntegrador3Cuatrimestre\DataAc
 C:\Users\jesus\OneDrive\Documentos\GitHub\ProyectoIntegrador3Cuatrimestre\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
 C:\Users\jesus\OneDrive\Documentos\GitHub\ProyectoIntegrador3Cuatrimestre\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
 C:\Users\jesus\OneDrive\Documentos\GitHub\ProyectoIntegrador3Cuatrimestre\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\NoelRios\Documents\GitHub\ProyectoIntegrador3Cuatrimestre\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+C:\Users\NoelRios\Documents\GitHub\ProyectoIntegrador3Cuatrimestre\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\NoelRios\Documents\GitHub\ProyectoIntegrador3Cuatrimestre\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\NoelRios\Documents\GitHub\ProyectoIntegrador3Cuatrimestre\DataAccess\bin\Debug\netstandard2.0\Domain.dll
+C:\Users\NoelRios\Documents\GitHub\ProyectoIntegrador3Cuatrimestre\DataAccess\bin\Debug\netstandard2.0\Domain.pdb
+C:\Users\NoelRios\Documents\GitHub\ProyectoIntegrador3Cuatrimestre\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+C:\Users\NoelRios\Documents\GitHub\ProyectoIntegrador3Cuatrimestre\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\NoelRios\Documents\GitHub\ProyectoIntegrador3Cuatrimestre\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+C:\Users\NoelRios\Documents\GitHub\ProyectoIntegrador3Cuatrimestre\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\NoelRios\Documents\GitHub\ProyectoIntegrador3Cuatrimestre\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
+C:\Users\NoelRios\Documents\GitHub\ProyectoIntegrador3Cuatrimestre\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+C:\Users\NoelRios\Documents\GitHub\ProyectoIntegrador3Cuatrimestre\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
