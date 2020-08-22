@@ -9,7 +9,7 @@ namespace DataAccess
 
         public DbConnection()
         {
-            connectionString ="Server=148.233.85.168,5015;Initial Catalog=JAlfonsoExampleCRUD;User Id=sa;Password=TIDSM3A2020.;";
+            connectionString ="Server=148.233.85.168,5015;Initial Catalog=Horarios;User Id=sa;Password=TIDSM3A2020.;";
         }
 
         public SqlConnection GetConnection(){

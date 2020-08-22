@@ -5,8 +5,8 @@ createUser = async (event) => {
     // 0.- Validar la información
     // 1.- Crear el objeto que voy a guardar
     let form = event.target;
-    let user = new User(0, form.txtName.value, form.txtAddress.value, form.txtPhone.value,
-        form.txtEmail.value, form.txtUserName.value, form.txtPassword.value);
+    let user = new User(0, form.txtName.value, form.txtAddress.value,form.txtEmail.value, form.txtPhone.value,
+        form.txtPassword.value,form.txtNoc.value);
     console.log("Objeto", user);
     
     // 2.- Enviar el objeto (user) creado al back-end

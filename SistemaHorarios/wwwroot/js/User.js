@@ -17,17 +17,18 @@ load = () => {
 
         txtName.value =  user.Name;
         txtAddress.value = user.Address;
-        txtPhone.value = user.Phone;
         txtEmail.value = user.Email;
-        txtUserName.value = user.UserName;
+        txtPhone.value = user.Phone;
         txtPassword.value = user.Password;
+        txtNoC.value = user.Noc;
+        
 
 }
 updateUser = async (event) => {
     event.preventDefault();
     let form = event.target;
     user = new User(user.Id, form.txtName.value, user.Email, form.txtPhone.value,
-        form.txtEmail.value, form.txtUserName.value, form.txtPassword.value);
+        form.txtEmail.value,form.txtPassword.value, form.txtUserName.value);
 
     //let apiFetch = new ApiFetch();
     let response = await apiFetch.Post("User/UpdateUser", user);

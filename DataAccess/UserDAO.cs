@@ -20,7 +20,7 @@ namespace DataAccess
         {
             using (var connection = new DbConnection().GetConnection())
             {
-                var query = "select * from Users where Email=@Email and Password=@Password;";
+                var query = "select * from Maestros where Correo=@Correo and Contraseña=@Contraseña;";
                 
                 user = connection.QueryFirstOrDefault<User>(query, user);
 
@@ -38,7 +38,7 @@ namespace DataAccess
                 //2.- Generar un script insert
                 //Buscar el Email, si no existe lo registro, si existe no lo registro 
                 var query = @"
-                    insert into Users values (@Name, @Address, @Phone, @Email, @UserName, @Password);
+                    insert into Maestros values (@Nombre, @Direccion, @Correo, @Telefono, @Contraseña, @NoCubiculo);
                     select @@identity;
                 ";
 
