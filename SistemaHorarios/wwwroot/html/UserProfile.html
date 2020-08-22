@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Práctica de Web Responsiva</title>
+
+    <script src="js/Util/ClearSesion.js"></script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/sticky-footer-navbar.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <style>
+           
+        .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        }
+        .form-inline{
+            align-items: center;
+            justify-content: center;
+        }
+        @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+        }
+    }
+</style>
+  </head>
+  <body class="d-flex flex-column h-100">
+      <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-success">
+      <a class="navbar-brand" href="index.html"> 
+          <img src="images/logouts.png" alt="UTS" style="width: 50px;"/>
+      </a>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav item">
+            </li>
+            <button type="button" class="btn btn-success text-white" data-toggle="modal" data-target="#myLogin">
+                Editar Perfil
+            </button>
+            <li class="nav item">
+              <button type="button" class="btn btn-success text-white" data-toggle="modal" data-target="#myLogin">
+                  Ir a Horarios
+              </button>
+              
+          </li>
+        </ul>
+      </div>
+    </nav>
+</header>
+
+
+<!-- Begin page content -->
+</br>
+</br>
+</br>
+</br>
+<main role="main" class="flex-shrink-0 ">
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+       </div>
+       <main role="main" class="flex-shrink-0">
+        <div class="container">
+          <div id="demo" class="carousel slide">
+              <form onsubmit="updateUser(event)">
+       <div class="text-center">
+        <img src="../images/logouts.png" class="img-fluid" alt=""/>
+    </div>
+        <div class="input-group form-group .form-inline">
+         <div class="input-group-pretend">
+            <span class="input-group-text"><i class="fas fa-user"></i></span>
+        </div>
+            <input type="text" readonly="readonly" class="form-control" placeholder="Nombre" required minlength="10" id="txtName">
+        </div>
+        <div class="input-group form-group ">
+            <div class="input-group-pretend">
+                <span class="input-group-text"><i class="fas fa-road"></i></span>
+            </div>
+            <input type="text" class="form-control"readonly="readonly" placeholder="Dirección" id="txtAddress">
+         </div>
+         <div class="input-group form-group">
+            <div class="input-group-pretend">
+                <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+            </div>
+            <input type="email" class="form-control"readonly="readonly" placeholder="Correo" required minlength="10" id="txtEmail" disabled>
+         </div>
+         <div class="input-group form-group">
+            <div class="input-group-pretend">
+                <span class="input-group-text"><i class="fas fa-phone"></i></span>
+            </div>
+            <input type="tel" class="form-control" readonly="readonly"placeholder="Teléfono" required minlength="10" id="txtPhone">
+         </div>
+         <div class="input-group form-group">
+            <div class="input-group-pretend">
+                <span class="input-group-text"><i class="fas fa-key"></i></span>
+            </div>
+            <input type="password" class="form-control"readonly="readonly" placeholder="Contraseña" required minlength="8" id="txtPassword">
+         </div>
+         <div class="input-group form-group">
+            <div class="input-group-pretend">
+                <span class="input-group-text"><i class="fas fa-user"></i></span>
+            </div>
+            <input type="text" class="form-control"readonly="readonly" placeholder="Numero de cubiculo" required minlength="5" id="txtUserName">
+         </div>       
+
+ <!-- el modal de registrate-->
+ <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+
+  <!-- Modal de inicio de sesión -->
+  <div class="modal" id="myLogin">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Inicio de Sesión</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+</main>
+<footer class="footer bg-success text-white-50 fixed-bottom py-3">
+    <!-- Elementos de footer -->
+    <div class="container">
+    <!-- Botones de redes sociales -->
+    <ul class="list-unstyled list-inline text-center">
+        
+        <button size="type="button class="btn btn-primary btn-lg"><li class="list-inline-item">
+      <a style='text-decoration:none;color:white' target="_blank" href="https://www.facebook.com/utsurdesonora" class="btn-floating btn-fb mx-1">
+        <i class="fab fa-facebook-f"> </i>
+      </a></button>
+
+    </li>
+
+    <button size="type="button class="btn btn-info btn-lg"><li class="list-inline-item">
+      <a style='text-decoration:none;color:white' target="_blank" href="https://twitter.com/utsurdesonora?lang=es" class="btn-floating btn-tw mx-1">
+        <i class="fab fa-twitter"> </i>
+      </a></button>
+
+    </li>
+
+    <button size="type="button class="btn btn-warning btn-lg"><li class="list-inline-item">
+      <a style='text-decoration:none;color:white' target="_blank" href="https://www.google.com/search?client=opera&q=uts&sourceid=opera&ie=UTF-8&oe=UTF-8" class="btn-floating btn-g mx-1">
+        <i class="fab fa-google"> </i>
+      </a></button>
+
+    </li>
+
+    <button size="type="button class="btn btn-light btn-lg text-dark"><li class="list-inline-item">
+      <a style='text-decoration:none;color:black' target="_blank" href="https://www.instagram.com/utsurdesonora/?hl=es-la" class="btn-floating btn-li mx-1">
+        <i class="fab fa-instagram"> </i>
+      </a></button>
+
+    </li>
+
+    <button  size="type="button class="btn btn-link btn-lg text-dark"><li class="list-inline-item">
+      <a style='text-decoration:none;color:white' target="_blank" href="http://uts.edu.mx/Principal/index.php" class="btn-floating btn-dribbble mx-1">
+        Pagina UTS
+        <i class="fab fa-dribbble"> </i>
+      </a></button>
+
+    </li>
+
+    </ul>
+    <!-- Social buttons -->
+    </div>
+    <!-- Footer Elements -->
+    <div class="container text-center">
+    <span class="text-white"><i class="fa fa-copyright" aria-hidden="true"></i> <Ri:a>Sistema Horarios UTS</Ri:a></span>
+    </div>
+</footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="js/Domain/user.js"></script>
+        <script src="js/Util/ApiFetch.js"></script>
+        <script src="js/index.js"></script>
+      </body>
+    </html>
