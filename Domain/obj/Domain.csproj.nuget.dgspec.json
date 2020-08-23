@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NoelRios\\Documents\\GitHub\\ProyectoIntegrador3Cuatrimestre\\Domain\\Domain.csproj": {}
+    "C:\\Users\\pc i3\\Desktop\\SistemaHorarios(Final)\\ProyectoIntegrador3Cuatrimestre\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NoelRios\\Documents\\GitHub\\ProyectoIntegrador3Cuatrimestre\\Domain\\Domain.csproj": {
+    "C:\\Users\\pc i3\\Desktop\\SistemaHorarios(Final)\\ProyectoIntegrador3Cuatrimestre\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NoelRios\\Documents\\GitHub\\ProyectoIntegrador3Cuatrimestre\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\pc i3\\Desktop\\SistemaHorarios(Final)\\ProyectoIntegrador3Cuatrimestre\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\NoelRios\\Documents\\GitHub\\ProyectoIntegrador3Cuatrimestre\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\NoelRios\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NoelRios\\Documents\\GitHub\\ProyectoIntegrador3Cuatrimestre\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\pc i3\\Desktop\\SistemaHorarios(Final)\\ProyectoIntegrador3Cuatrimestre\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\pc i3\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc i3\\Desktop\\SistemaHorarios(Final)\\ProyectoIntegrador3Cuatrimestre\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\NoelRios\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\pc i3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +59,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -20,7 +20,7 @@ namespace DataAccess
         {
             using (var connection = new DbConnection().GetConnection())
             {
-                var query = "select * from Maestros where Correo=@Correo and Contraseña=@Contraseña;";
+                var query = "select * from Teacher where Email=@Email and Password=@Password;";
                 
                 user = connection.QueryFirstOrDefault<User>(query, user);
 

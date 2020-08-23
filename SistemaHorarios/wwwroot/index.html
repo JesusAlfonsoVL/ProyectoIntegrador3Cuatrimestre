@@ -38,7 +38,7 @@
       <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-success">
       <a class="navbar-brand" href="index.html"> 
-          <img src="images/logouts.png" alt="UTS" style="width: 50px;"/>
+          <img src="images/logouts.png" alt="UTS" style="width: 60px;"/>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -48,25 +48,26 @@
           <li class="nav-item active">
             <a class="nav-link" href="index.html"> <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fas fa-bread-slice"></i> Panadería</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fas fa-mug-hot"></i> Lacteos</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fas fas fa-carrot"></i> Futas y Verduras</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fas fa-drumstick-bite"></i> Carnes</a>
-          </li>
         </ul>
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav item">
+            <form  action="html/Search.html">
+              <i class="fas fa4-id-badge"></i>
+              <input type="submit" class="btn btn-success text-wite"value="Horarios" />
+              </form>       
+        </li>
+        <li class="nav item">
+          <button type="button" class="btn btn-success text-white" data-toggle="" data-target="">
+              Lo Olvide
+          </button>
+      </li>
+        </ul>
+        <ul class="navbar-nav ml-auto ">
             <li class="nav item">
-              <button type="button" class="btn btn-success text-white" data-toggle="modal" data-target="#myModal">
-                  <i class="fas fa-id-badge"></i> 
-                  Registrate
-              </button>
+                <form action="html/Register.html">
+                  <i class="fas fa4-id-badge"></i>
+                  <input type="submit" class="btn btn-success text-wite"value="Registro" />
+                    </form>       
             </li>
             <li class="nav item">
               <button type="button" class="btn btn-success text-white" data-toggle="modal" data-target="#myLogin">
@@ -93,106 +94,47 @@
            <!-- The slideshow -->
            <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="images/bakeryBanner.jpg" width="1100" height="500">
+              <div class="row justify-content-center">
+                <div class="col-sm-8"></div>
+              <img src="images/ambiente1.png" width="1500" height="400">
+              <div class="carousel-caption d-none d-md-block">
+                <stromg><h5>Como vamos Banda</h5></stromg>
+                <p>No se me duerman</p>
+              </div>
+              </div>
             </div>
+
             <div class="carousel-item">
-              <img src="images/dairyBanner.jpg" width="1100" height="500">
+              <div class="row justify-content-center">
+                <div class="col-sm-8"></div>
+              <img src="images/ambiente2.jpg" width="1500" height="400">
             </div>
+           </div>
+
             <div class="carousel-item">
-              <img src="images/fruitBanner.jpg" width="1100" height="500">
+              <div class="row justify-content-center">
+                <div class="col-sm-8"></div>
+              <img src="images/ambiente3.jpg" width="1500" height="400">
+             </div>
             </div>
+
               <div class="carousel-item">
-              <img src="images/meatsBanner.jpg" width="1100" height="500">
+                <div class="row justify-content-center">
+                  <div class="col-sm-8"></div>
+              <img src="images/ambiente4.png" width="1500" height="400">
+             </div>
             </div>
           </div>
           <!-- Left and right controls -->
           <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
+            <span class="carousel-control-prev-icon" ></span>
           </a>
           <a class="carousel-control-next" href="#demo" data-slide="next">
             <span class="carousel-control-next-icon"></span>
           </a>
        </div>
 
- <!-- el modal de registrate-->
- <div class="modal" id="myModal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <!--Modal Header-->
-        <div class="modal-header">
-          <h4 class="modal-title">Registrar Maestro</h4>
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-
-        <!-- Modal Body-->
-        <div class="modal-body">
-          <div class="container">
-            <form onsubmit="createUser(event)">
-            <div class="text-center">
-                <img src="images/logouts.png" class="img-fluid" alt=""/>
-            </div>
-                <div class="input-group form-group">
-                 <div class="input-group-pretend">
-                    <span class="input-group-text"><i class="fas fa-user"></i></span>
-                </div>
-                    <input type="text" class="form-control" placeholder="Nombre" required id="txtName"
-                    value="Gilberto Sesteaga">
-                </div>
-                <div class="input-group form-group">
-                    <div class="input-group-pretend">
-                        <span class="input-group-text"><i class="fas fa-road"></i></span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Dirección" id="txtAddress"
-                    value="Cd. Obregon">
-                 </div>
-                 <div class="input-group form-group">
-                  <div class="input-group-pretend">
-                      <span class="input-group-text"><i class="fas fa-envelope"></i></span>
-                  </div>
-                  <input type="email" class="form-control" placeholder="Correo" required id="txtEmail"
-                  value="gsesteaga@uts.edu.mx">
-               </div>
-                 <div class="input-group form-group">
-                    <div class="input-group-pretend">
-                        <span class="input-group-text"><i class="fas fa-phone"></i></span>
-                    </div>
-                    <input type="tel" class="form-control" placeholder="Teléfono" required minlength="10" id="txtPhone"
-                    value="644 123 45 67">
-                 </div>
-                 <div class="input-group form-group">
-                  <div class="input-group-pretend">
-                      <span class="input-group-text"><i class="fas fa-key"></i></span>
-                  </div>
-                  <input type="password" class="form-control" placeholder="Contraseña" required minlength="8" id="txtPassword"
-                  value="gsesteaga">
-               </div>
-                 <div class="input-group form-group">
-                    <div class="input-group-pretend">
-                        <span class="input-group-text"><i class="fas fa-user"></i></span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="No. Cubiculo" required id="txtNoC"
-                    value="3">
-                 </div>
-           
-                 <div class="row align-item-center remember">
-                     <input type="checkbox">  Recordar contaseña.
-                 </div>
-                 <br/>
-                 <div class="form group">
-                     <input type="submit" value="Registrar" class="btn btn-success" >
-                 </div>
-                 <br/>
-             </form>
-            </div>
-            <!-- modal footer-->
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
+ 
 
   <!-- Modal de inicio de sesión -->
   <div class="modal" id="myLogin">
@@ -200,9 +142,11 @@
     <div class="modal-content">
 
       <!-- Modal Header -->
-      <div class="modal-header">
+      <div class="btn btn-success" class="modal-header">
         <h4 class="modal-title">Inicio de Sesión</h4>
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="text-center">
+        <img src="images/logouts.png" class="img-fluid" alt=""/>
       </div>
 
       <!-- Modal body -->
@@ -214,7 +158,7 @@
                           <span class="input-group-text"><i class="fas fa-user"></i></span>
                       </div>
                       <input type="text" class="form-control" placeholder="Nombre de usuario"
-                       required id="txtEmailLogin" value="gsesteaga@uts.edu.mx"
+                       required id="txtEmailLogin" value="josesito@gmail.com"
                       >
                    </div>
                   <div class="input-group form-group">
@@ -222,11 +166,16 @@
                          <span class="input-group-text"><i class="fas fa-key"></i></span>
                      </div>
                      <input type="password" class="form-control" placeholder="Contraseña"
-                       required id="txtPasswordLogin" value="gsesteaga"
+                       required id="txtPasswordLogin" value="12345678"
                      >
                   </div>
                   <div class="row align-item-center remember">
-                      <input type="checkbox">  Recordar contaseña.
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                      <label class="form-check-label" for="defaultCheck2">
+                        Recordar contraseña
+                      </label>
+                    </div>
                   </div>
                   <br/>
                   <div class="form group">
@@ -243,45 +192,99 @@
     </div>
   </div>
   </div>
+   
+  <div class="card-deck">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Pagina de la UTS</h5>
+      <p class="card-text">Aqui podras consultar toda la informacion relacionada con la universidad.</p>
+      <button type="button" class="btn btn-outline-info">Click</button>
+      <img class="card-img-full" src="images/info.jpg" alt="Card image cap">
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+   </br>
+  </br>
+</br>
+</br>
+</div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Califica tu maestro.</h5>
+      <p class="card-text">Califica a tus maestros para que puedan dar un mejor rendimiento.</p>
+      <button type="button" class="btn btn-outline-info">Click</button>
+      <img class="card-img-full" src="images/calmaestro.png" alt="Card image cap">
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+   </br>
+  </br>
+</br>
+</br>
+</div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Calificaciones</h5>
+      <p class="card-text">Consulta tus calificaciones del cuatrimestre aqui mismo.</p>
+      <button type="button" class="btn btn-outline-info">Click</button>
+      <img class="card-img-full" src="images/calificacion.jpg" alt="Card image cap">
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Last updated 3 mins ago</small>
+    </div>
+   </br>
+  </br>
+ </br>
+</br>
+</div>
+</div>
 </main>
-<footer class="footer bg-success text-white-50 fixed-bottom py-3">
-    <!-- Elementos de footer -->
-    <div class="container">
-    <!-- Botones de redes sociales -->
-    <ul class="list-unstyled list-inline text-center">
-    <li class="list-inline-item">
-      <a class="btn-floating btn-fb mx-1">
-        <i class="fab fa-facebook-f"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-tw mx-1">
-        <i class="fab fa-twitter"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-gplus mx-1">
-        <i class="fab fa-google-plus-g"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-li mx-1">
-        <i class="fab fa-linkedin-in"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-dribbble mx-1">
-        <i class="fab fa-dribbble"> </i>
-      </a>
-    </li>
-    </ul>
-    <!-- Social buttons -->
-    </div>
-    <!-- Footer Elements -->
-    <div class="container text-center">
-    <span class="text-white"><i class="fa fa-copyright" aria-hidden="true"></i> <Ri:a>Academia de Desarrollo UTS</Ri:a></span>
-    </div>
+
+
+
+
+
+<footer class="footer bg-success text-white-50 fixed-bottom py-1">
+  <!-- Elementos de footer -->
+  <div class="container">
+      <!-- Botones de redes sociales -->
+      <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus-g"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble"> </i>
+        </a>
+      </li>
+      </ul>
+      <!-- Social buttons -->
+      </div>
+      <!-- Footer Elements -->
+      <div class="container text-center">
+      <span class="text-white"><i  aria-hidden="true"></i> <Ri:a>Sistema de horarios UTS</Ri:a></span>
+      </div>
 </footer>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

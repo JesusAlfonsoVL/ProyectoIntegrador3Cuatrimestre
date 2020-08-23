@@ -584,34 +584,41 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NoelRios\\.nuget\\packages\\": {}
+    "C:\\Users\\pc i3\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NoelRios\\Documents\\GitHub\\ProyectoIntegrador3Cuatrimestre\\SistemaHorarios\\SistemaHorarios.csproj",
+      "projectUniqueName": "C:\\Users\\pc i3\\Desktop\\SistemaHorarios(Final)\\ProyectoIntegrador3Cuatrimestre\\SistemaHorarios\\SistemaHorarios.csproj",
       "projectName": "SistemaHorarios",
-      "projectPath": "C:\\Users\\NoelRios\\Documents\\GitHub\\ProyectoIntegrador3Cuatrimestre\\SistemaHorarios\\SistemaHorarios.csproj",
-      "packagesPath": "C:\\Users\\NoelRios\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NoelRios\\Documents\\GitHub\\ProyectoIntegrador3Cuatrimestre\\SistemaHorarios\\obj\\",
+      "projectPath": "C:\\Users\\pc i3\\Desktop\\SistemaHorarios(Final)\\ProyectoIntegrador3Cuatrimestre\\SistemaHorarios\\SistemaHorarios.csproj",
+      "packagesPath": "C:\\Users\\pc i3\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pc i3\\Desktop\\SistemaHorarios(Final)\\ProyectoIntegrador3Cuatrimestre\\SistemaHorarios\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\NoelRios\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\pc i3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\NoelRios\\Documents\\GitHub\\ProyectoIntegrador3Cuatrimestre\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\NoelRios\\Documents\\GitHub\\ProyectoIntegrador3Cuatrimestre\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\pc i3\\Desktop\\SistemaHorarios(Final)\\ProyectoIntegrador3Cuatrimestre\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\pc i3\\Desktop\\SistemaHorarios(Final)\\ProyectoIntegrador3Cuatrimestre\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\NoelRios\\Documents\\GitHub\\ProyectoIntegrador3Cuatrimestre\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\NoelRios\\Documents\\GitHub\\ProyectoIntegrador3Cuatrimestre\\Domain\\Domain.csproj"
+            "C:\\Users\\pc i3\\Desktop\\SistemaHorarios(Final)\\ProyectoIntegrador3Cuatrimestre\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\pc i3\\Desktop\\SistemaHorarios(Final)\\ProyectoIntegrador3Cuatrimestre\\Domain\\Domain.csproj"
             }
           }
         }
@@ -642,7 +649,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

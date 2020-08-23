@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de alumno</title>
+    <!-- <script src="../js/Util/ClearSesion.js"></script> -->
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/sticky-footer-navbar.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <style>
+        .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        }
+        body{
+            align-items: center;
+            justify-content: center;
+        }
+        .form-inline{
+            align-items: center;
+            justify-content: center;
+        }
+        @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+        }
+    }
+    
+</style>
+</head>
+
+<body class="d-flex flex-column h-100" onload="reg()">
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-success">
+            <a class="navbar-brand" href="../index.html"> 
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="../index.html"> <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Pagina pricipal</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+</header>
+      <!-- Modal Body-->
+      <main role="main" class="flex-shrink-0">
+          <div class="container">
+            <form onsubmit="createAlumn(event)">
+            <div class="text-center">
+                <img src="../images/logouts.png" width="300" height="300" class="img-fluid" alt=""/>
+            </div>
+            <h4>Formulario de registro</h4><br>
+                <div class="input-group form-group">
+                 <div class="input-group-pretend">
+                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                </div>
+                    <input type="text" class="form-control" placeholder="Nombre" required minlength="10" id="txtName"
+                    value="Gilberto Sesteaga">
+                </div>
+                 <div class="input-group form-group">
+                  <div class="input-group-pretend">
+                      <span class="input-group-text"><i class="fas fa-key"></i></span>
+                  </div>
+                  <input type="password" class="form-control" placeholder="Contraseña" required minlength="8" id="txtPassword"
+                  value="gsesteaga">
+               </div>
+                <div class="input-group form-group">
+                 <div class="input-group-pretend">
+                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                </div>
+                    <input type="email" class="form-control" placeholder="Correo electronico" required minlength="10" id="txtEmail"
+                    value="gsesteaga@uts.edu.mx">
+                </div>
+                <div class="input-group form-group">
+                 <div class="input-group-pretend">
+                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                </div>
+                    <input type="number" class="form-control" placeholder="Cubiculo/Oficina" required minlength="10" id="txtCubCina"
+                    value="13">
+                </div>
+                <div class="input-group form-group">
+                    <div class="input-group-pretend">
+                       <span class="input-group-text"><i class="fas fa-user"></i></span>
+                   </div>
+                       <input type="number" class="form-control" placeholder="Clave de docente" required minlength="4" id="txtCubCina"
+                       value="1234">
+                   </div>
+                 <div class="text-center">
+                     <input type="submit" value="Registrar" class="btn btn-success" >
+                 </div>
+                 <br/>
+             </form>
+            </div>
+        </main>
+<footer class="footer bg-success text-white-50 fixed-bottom py-2">
+    <!-- Elementos de footer -->
+        <!-- Footer Elements -->
+        <div class="container text-center">
+        <span class="text-white"><i  aria-hidden="true"></i> <Ri:a>Sistema de horarios UTS</Ri:a></span>
+        </div>
+</footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+  crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+      <!-- Optional JavaScript-->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+      crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+       crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+      crossorigin="anonymous"></script>
+
+      <script src="../js/Domain/user.js"></script>
+      <script src="../js/Util/ApiFetch.js"></script>
+
+      <script src="../js/User.js"></script>
+    </body>
+</html>
